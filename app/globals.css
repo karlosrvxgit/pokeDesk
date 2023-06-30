@@ -1,0 +1,47 @@
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 100vh;
+  align-items: center;
+  background-color: rgb(167, 213, 185);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.cardPokemon {
+  height: 200px;
+  width: 200px;
+  border:1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardPokemon > div {
+  height:150px;
+}
+
+.cardPokemon > div > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.cardPokemon > h1 {
+  text-transform: capitalize;
+}
+
+.cardPokemon > h1,
+.cardPokemon > p
+{
+  margin: 0;
+}
+
